@@ -1,0 +1,76 @@
+/* used px to explain rem */
+html {
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topImage {
+  width: 100%;
+  height: 17.5rem;
+  object-fit: cover;
+}
+
+main {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+h1 {
+  color: #2596be;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  color: #fba284;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* used px to explain em */
+.units {
+  background-color: whitesmoke;
+  padding: 0.5rem 0.5rem 1rem;
+  font-size: 16px;
+}
+
+/* used px to explain px */
+.px {
+  color: white;
+  background-color: #2596be;
+  width: 100px;
+}
+
+.vw {
+  color: white;
+  background-color: #2596be;
+  width: 25vw;
+}
+
+.vh {
+  color: white;
+  background-color: #2596be;
+  height: 30vh;
+}
+
+.percentage {
+  color: white;
+  background-color: #2596be;
+  width: 50%;
+}
+
+.em {
+  color: #2596be;
+  font-size: 2em;
+}
+
+.rem {
+  color: #2596be;
+  font-size: 2rem;
+}
